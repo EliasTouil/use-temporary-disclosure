@@ -1,6 +1,6 @@
 {
   "name": "use-temporary-disclosure",
-  "version": "0.0.3",
+  "version": "0.0.4-alpha.0",
   "description": "Effortlessly manage temporary UI elements with 'useTemporaryDisclosure', a React hook allowing you to show or hide an element in the future. Ideal for displaying messages, toggles, or any component that needs to appear and disappear after a set duration.",
   "main": "dist/index.mjs",
   "keywords": [
