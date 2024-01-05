@@ -1,11 +1,8 @@
-
 ![use-temporary-disclosure-banner](https://github.com/EliasTouil/use-temporary-disclosure/assets/4231667/f0135220-d3ae-44ad-9eb0-ed9c2020feab)
 
 # use-temporary-disclosure
 
-## Introduction
-
-use-temporary-disclosure is a React hook that provides an easy way to manage the visibility of UI elements for a specific duration. It's perfect for temporary notifications, tooltips, or any component that should appear for a limited time. The hook offers simple yet powerful functions to show and hide elements with timing control and callback functionalities.
+use-temporary-disclosure is a **React hook** that provides an easy way to manage the **visibility of UI elements for a specific duration**. It's perfect for temporary notifications, tooltips, or any component that should appear for a limited time. The hook offers simple yet powerful functions to show and hide elements with timing control and callback functionalities.
 
 ## Installation
 
@@ -50,9 +47,7 @@ const DemoComponent = () => {
 			</button>
 
 			{isOpen && (
-				<div style={{ color: 'green' }}>
-					Notification content.
-				</div>
+				<div style={{ color: 'green' }}>Notification content.</div>
 			)}
 		</div>
 	);
