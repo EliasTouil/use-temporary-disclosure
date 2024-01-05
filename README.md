@@ -39,11 +39,18 @@ const DemoComponent = () => {
 				justifyContent: 'center',
 			}}
 		>
-			<button onClick={handleShowNotification} style={{ cursor: 'pointer' }}>
+			<button
+				onClick={handleShowNotification}
+				style={{ cursor: 'pointer' }}
+			>
 				Show Notification
 			</button>
 
-			{isOpen && <div style={{ color: 'green' }}>Notification content.</div>}
+			{isOpen && (
+				<div style={{ color: 'green' }}>
+					Notification content.
+				</div>
+			)}
 		</div>
 	);
 };
@@ -56,7 +63,8 @@ export default DemoComponent;
 useTemporaryDisclosure returns an object with the following properties
 
 ```typescript
-const { openFor, isOpen, openIn, closeIn } = useTemporaryDisclosure();
+const { openFor, isOpen, openIn, closeIn } =
+	useTemporaryDisclosure();
 ```
 
 ### For easy use
@@ -87,8 +95,8 @@ Feel free to suggest improvements or submit a PR!
 
 ### Gotchas if you run this locally
 
-Given you have a create-react-app on the side to test the package locally:
+Given you have a create-react-app on the side to test the package locally, use the same React versions, in order to do this you should link or import `react` and `react-dom` from use-temporary-disclosure.
 
-- Use the same React versions, in order to do this you should link or import `react` and `react-dom` from use-temporary-disclosure.
-
-example : `npm install ../../path-to/use-temporary-disclosure/node_modules/react`
+```bash
+npm install ../../path-to/use-temporary-disclosure/node_modules/react
+```
