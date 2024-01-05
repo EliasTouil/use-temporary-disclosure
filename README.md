@@ -1,3 +1,6 @@
+
+![use-temporary-disclosure-banner](https://github.com/EliasTouil/use-temporary-disclosure/assets/4231667/f0135220-d3ae-44ad-9eb0-ed9c2020feab)
+
 # use-temporary-disclosure
 
 ## Introduction
