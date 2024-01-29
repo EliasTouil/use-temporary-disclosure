@@ -68,10 +68,27 @@ const { openFor, isOpen, openIn, closeIn } =
 ### For easy use
 
 **openFor(opts: TemporaryDisclosureFunctionOpts)**: void
-Sets the state to open, then automatically closes it after a specified duration and executes a callback function.
+Sets the state to open, then automatically closes it after a specified duration and executes a callback function, see example above.
 
 **isOpen**: boolean
 Indicates the current open state.
+
+```typescript
+export type TemporaryDisclosureFunctionOpts = {
+	/**
+	 * The delay or duration to apply in milliseconds
+	 * @optional
+	 * @default 0
+	 */
+	duration?: number;
+
+	/**
+	 * Callback to run after the delay and the action is complete
+	 * @optional
+	 */
+	callback?: () => void;
+};
+```
 
 ### If you want fine grain control
 
