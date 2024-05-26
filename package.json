@@ -1,32 +1,32 @@
 {
-  "name": "use-temporary-disclosure",
-  "version": "1.0.0",
-  "description": "Effortlessly manage temporary UI elements with this react hook allowing you to show or hide an element for a period of time. Ideal for displaying messages, toggles, or any component that needs to appear and disappear after a set duration.",
-  "main": "dist/index.mjs",
-  "keywords": [
-    "react",
-    "timer",
-    "hook",
-    "react hook",
-    "disclosure",
-    "react-temporary-disclosure",
-    "react-disclosure"
-  ],
-  "scripts": {
-    "build": "tsup"
-  },
-  "types": "dist/index.d.mts",
-  "author": "EliasTouil",
-  "license": "Apache 2.0",
-  "peerDependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
-  },
-  "devDependencies": {
-    "@types/react": "18.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tsup": "^8.0.1",
-    "typescript": "5.3.3"
-  }
+	"name": "use-temporary-disclosure",
+	"version": "1.0.1",
+	"description": "Effortlessly manage temporary UI elements with this react hook allowing you to show or hide an element for a period of time. Ideal for displaying messages, toggles, or any component that needs to appear and disappear after a set duration.",
+	"main": "dist/index.mjs",
+	"keywords": [
+		"react",
+		"timer",
+		"hook",
+		"react hook",
+		"disclosure",
+		"react-temporary-disclosure",
+		"react-disclosure"
+	],
+	"scripts": {
+		"build": "tsup"
+	},
+	"types": "dist/index.d.mts",
+	"author": "EliasTouil",
+	"license": "Apache 2.0",
+	"peerDependencies": {
+		"react": ">=16.8",
+		"react-dom": ">=16.8"
+	},
+	"devDependencies": {
+		"@types/react": "18.2.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"tsup": "^8.0.1",
+		"typescript": "5.3.3"
+	}
 }
